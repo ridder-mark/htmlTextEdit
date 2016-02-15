@@ -1,0 +1,114 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-bracket		{ color: #555; }
+span.cm-builtin     { color: #555;; }
+span.cm-def			{ color: #555;; }
+span.cm-header      { color: #555;; }
+span.cm-meta		{ color: #555;; }
+span.cm-operator	{ color: #555;; }
+span.cm-qualifier	{ color: #555;; }
+span.cm-tag			{ color: #555;; }
+
+span.cm-atom		{ color: #555; }
+span.cm-link		{ color: #555; }
+span.cm-number		{ color: #555; }
+span.cm-string		{ color: #555; }
+span.cm-string-2    { color: #555; }
+span.cm-variable	{ color: #555; }
+span.cm-variable-2	{ color: #555; }
+span.cm-variable-3	{ color: #555; }
+
+
+span.cm-attribute	{ color: #555;; }
+span.cm-property	{ color: #555;; } /* property after string */
+
+span.cm-comment		{ color: #555; }
+span.cm-error		{ color: #555; }
+span.cm-keyword		{ color: #555; }
+span.cm-keyword		{ color: #555; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {
+	background: #333;
+	color: #fff;
+font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #3476DC !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #000 !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #333;
+	border-right: 1px solid #e5e2ce;
+}
+
+.CodeMirror-linenumber {
+	color: #b4ad87;
+}
+
+.CodeMirror-selected {
+    background: #d4ccb1;
+}
+
+/* Active Line */
+
+.CodeMirror-activeline-background {
+	background: #f7f6ef !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #643900;
+	background-color: transparent !important;
+}
+
+/* Matching Brackets and Tags */
+
+.CodeMirror-matchingbracket {
+    background: #bce8fc !important;
+    color: #000 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #bce8fc !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #e93fd2 !important;
+}
+
+/* Search Match */
+
+/*
+.CodeMirror-searching {
+    background-color: #ffcd2d;
+    color: #000 !important;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #ff8500;
+}
+*/
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #333;
+}
+
+#image-holder {
+    color: #6f6d64;
+}
